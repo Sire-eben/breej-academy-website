@@ -1,0 +1,43 @@
+name: breej_academy
+description: Breej academy website.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.11.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  animated_text_kit: ^4.2.1
+  firebase_core: ^1.16.0
+  firebase_auth: ^3.3.17
+  cloud_firestore: ^3.1.14
+  lottie: any
+  google_fonts: any
+  font_awesome_flutter: any
+  charts_flutter: ^0.12.0
+  get: ^4.1.4
+  data_table_2: ^2.0.3
+  url_launcher: any
+  provider: ^6.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/icons/
+    - assets/team/
